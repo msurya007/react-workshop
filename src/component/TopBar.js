@@ -9,23 +9,22 @@ const Topbar = () => {
         <TextField
           variant="outlined"
           placeholder="Last Name / first name"
-          className="w-full rounded-3xl"
           InputProps={{
             startAdornment: (
               <InputAdornment position="start">
                 <Search className="text-gray-500" />
               </InputAdornment>
             ),
-            classes: { root: 'pl-2 pr-4 py-2 rounded-full border-gray-300 focus:border-blue-500' },
+            classes: { root: 'pl-2 pr-4 rounded-full border-gray-300 focus:border-blue-500' },
           }}
         />
       </div>
       <div className='flex'>
         <div className="flex items-center px-2 rounded-3xl bg-sky-500 text-white">
-          <Search /> <Button>Advanced Search</Button>
+          <Button> <Search />  Advanced Search</Button>
         </div>
         <div className="flex items-center ml-2 px-2 rounded-3xl bg-sky-500 text-white">
-          <Add /> <Button>Patient</Button>
+           <Button> <Add />Patient</Button>
         </div>
       </div>
       <div className="flex items-center">

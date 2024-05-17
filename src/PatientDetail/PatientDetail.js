@@ -1,6 +1,6 @@
 import React from 'react'
-import { Avatar, IconButton, Chip, Typography, Paper, Divider } from '@mui/material';
-import { Edit as EditIcon, AccountCircle, BusinessCenterTwoTone, AddCircleOutline } from '@mui/icons-material';
+import { Avatar, IconButton, Chip, Typography, Paper, Button } from '@mui/material';
+import { Edit as EditIcon, BusinessCenterTwoTone, AddCircleOutline, Add } from '@mui/icons-material';
 
 const PatientDetail = () => {
   return (
@@ -19,9 +19,16 @@ const PatientDetail = () => {
                     <IconButton color="primary">
                       <EditIcon />
                     </IconButton>
-                    <IconButton color="primary">
-                      <AccountCircle />
-                    </IconButton>
+                    <div className="flex items-center ml-2 px-2 h-8 rounded-3xl bg-sky-500 text-white">
+                      <Button>
+                        <Add />Chart
+                      </Button>
+                    </div>
+                    <div className="flex items-center ml-2 px-2 h-8 rounded-3xl bg-sky-500 text-white">
+                      <Button>
+                        <Add />Enroll
+                      </Button>
+                    </div>
                   </div>
                   <Typography variant="body2">Male DOB: 01-Jan-1980 (42 Yrs)</Typography>
                   <Typography variant="body2">Ethnicity: Caucasian (European)</Typography>

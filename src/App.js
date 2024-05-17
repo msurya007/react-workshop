@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import SideNav from './component/SideNav';
 import PatientDetail from './PatientDetail/PatientDetail';
