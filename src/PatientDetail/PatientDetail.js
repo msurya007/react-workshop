@@ -20,12 +20,12 @@ const PatientDetail = () => {
                       <EditIcon />
                     </IconButton>
                     <div className="flex items-center ml-2 px-2 h-8 rounded-3xl bg-sky-500 text-white">
-                      <Button>
+                      <Button sx={{textTransform: 'none', color: 'white'}}>
                         <Add />Chart
                       </Button>
                     </div>
                     <div className="flex items-center ml-2 px-2 h-8 rounded-3xl bg-sky-500 text-white">
-                      <Button>
+                      <Button sx={{textTransform: 'none', color: 'white'}}>
                         <Add />Enroll
                       </Button>
                     </div>

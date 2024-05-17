@@ -21,10 +21,10 @@ const Topbar = () => {
       </div>
       <div className='flex'>
         <div className="flex items-center px-2 rounded-3xl bg-sky-500 text-white">
-          <Button> <Search />  Advanced Search</Button>
+          <Button sx={{textTransform: 'none', color: 'white'}}> <Search />  Advanced Search</Button>
         </div>
         <div className="flex items-center ml-2 px-2 rounded-3xl bg-sky-500 text-white">
-           <Button> <Add />Patient</Button>
+           <Button sx={{textTransform: 'none', color: 'white'}}> <Add />Patient</Button>
         </div>
       </div>
       <div className="flex items-center">
